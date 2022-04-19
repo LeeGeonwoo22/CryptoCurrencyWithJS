@@ -1,3 +1,6 @@
+// 상대 변화 업데이트 수행 작업단위
+// 트랜잭션 클레스 만들기 
+
 class Transaction {
     constructor (amount, senderPublickey, recieverPublicKey){
         this.amount = amount;

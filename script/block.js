@@ -1,4 +1,4 @@
-
+const crypto = require("crypto")
 
 // 블록체인 콜렉션입니다.
 // 서로 연결되어 '체계적'으로 접근 가능합니다.
@@ -23,4 +23,4 @@ class Block {
     }
 }
 
-exports.module = Block;
+module.exports = Block;
